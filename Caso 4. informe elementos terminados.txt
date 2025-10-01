@@ -146,8 +146,8 @@ Click in the button labeled as 'Superficies'
 Wait 1 second
 Click in the 'Editar' button.
 There are 3 columns. the next 3 instructions will be about the one labeled as 'Comprobada':
-Fill the field labeled as 'Superficie útil (m²)' with '80'
-Fill the field labeled as 'Superficie construida sin comunes (m²)' with '90'
+Fill the field labeled as 'Superficie útil (m²)' with '91'
+Fill the field labeled as 'Superficie construida sin comunes (m²)' with '95'
 Fill the field labeled as 'Superficie construida con comunes (m²)' with '100'
 Now, in the first column, labeled as 'Catastral', fill the field labeled as 'Superficie construida sin comunes (m²)' with '95'
 Click in 'Guardar' to save changes.
@@ -168,7 +168,6 @@ Fill the field labeled as 'Superficie útil de espacios exteriores cubiertos' wi
 Fill the field labeled as 'Superficie útil de espacios exteriores descubiertos' with '0'
 Click in 'Guardar' to save changes.
 Wait 1 second
-
 
 //Posesión
 
@@ -191,10 +190,72 @@ Click in the button labeled as 'Valoraciones'
 Wait 1 second
 Click in 'Añadir valoración'
 A pop up will appear. Click in 'Métodos de valoración' dropdown list and select 'Comparación'.
-
-
-
-
+Wait 1 second
+Click in 'Superficies' dropdown list and select the option that contains 'Superficie comprobada útil'.
+Wait 1 second
+Click in the button that reads 'Crear testigo'
+A pop up appears. Fill the field labeled as 'Referencia catastral' with '0966512VK3706N0002KY'
+Click in the button labeled as 'Buscar'
+Wait 1 second
+Click in the button labeled as '>'
+Wait 1 second
+Fill all the required gaps. Select 'Venta' from the dropdown list labeled as 'Tipo de oferta'
+Select 'Particular' from the dropdown list labeled as 'Tipo de origen'
+Select 'Internet' from the dropdown list labeled as 'Origen del testigo'
+Fill the gap labeled as 'URL del proveedor' with 'A'
+Fill the gap labeled as 'Número de contacto' with '999999999'
+Select 'Piso' from the dropdown list labeled as 'Subtipología'
+Fill the field labeled as 'Superficie útil' with '95'
+Fill the field labeled as 'Superficie construida/construida con comunes' with '100'
+Fill the field labeled as 'Año de construcción' with '1970'
+Select 'Media' from the dropdown list labeled as 'Calidad de las edificaciones'
+Select 'Bueno' from the dropdown list labeled as 'Estado de conservación'
+Fill the field labeled as 'Número de baños' with '1'
+Fill the field labeled as 'Número de habitaciones' with '3'
+Select 'Origen' from the dropdown list labeled as 'Estado interior del testigo'
+Fill the field labeled as 'Número de plantas del edificio' with '1'
+Fill the field labeled as 'Número de ascensores del testigo' with '1'
+Fill the field labeled as 'Superficie útil de espacios exteriores cubiertos (m2)' with '1'
+Fill the field labeled as 'Superficie útil de espacios exteriores descubiertos (m2)' with '1'
+Select 'Bueno' from the dropdown list labeled as 'Situación dentro zona'
+Select 'Medio' from the dropdown list labeled as 'Nivel socio-económico zona'
+Fill the field labeled as 'Nº de plazas de garaje' with '0'
+Select 'No' from the dropdown list labeled as 'Trastero'
+Fill the field labeled as 'Valor de oferta' with '220000'
+Fill the field labeled as 'Reduc. / Negociación' with '5'
+There are 5 buttons. Their names are 'ZONAS VERDES', 'PISCINA', 'ZONA DEPORTIVA', 'CALEFACCIÓN', 'CLIMATIZACIÓN'. Select all of them.
+Click in the button labeled as 'Confirmar'
+Wait 1 second
+Click in the button labeled as 'Añadir testigos'. The pop up will disappear.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Fill the field labeled as 'Observaciones relativas al estudio de mercado' with 'A'.
+Click in the button labeled as 'Guardar'
+Wait 1 second
+A pop up will appear. Fill the gap labeled as 'Nombre' with 'B'
+Wait 1 second
+Click in the button labeled as 'Recalcular métodos'
+Wait 1 second
+Click in 'Cerrar'
+Wait 1 second
 
 Click in 'Añadir valoración'
 Wait 1 second
@@ -260,35 +321,3 @@ Click in 'Siguiente' button
 Click in 'Continuar' button
 Click in 'Autorizar' button
 Wait 30 until the page loads.
-
-//Validación
-
-Click in the round button below 'Gestor de técnicos' text field whose icon is a '+' sign.
-Wait 1 second.
-Write {'Sergio'} in 'Nombre' and {'Técnico'} in 'Apellidos'.
-Wait 1 second.
-Select the first button in the list.
-Wait for 1 second 
-
-//Proceso de validación (servicio paso 8-11) 
-
-Click in the 'Empezar validación' button
-Wait for 1 second.
-Click in the 'Confirmar' button.
-Wait for 1 second.
-Click in the 'Validar' button
-Wait for 1 second.
-Write in the 'Valor total (€)' text field {'90'}.
-Click in the 'Confirmar' button.
-Wait for 1 second.
-Click in the 'Validar gastos' button.
-Wait for 1 second.
-Click in the 'Terminar' button.
-Wait for 1 second.
-Click in the 'Confirmar' button.
-Wait for 1 second.
-//Vuelta a la solicitud (solicitud paso 4-5)
-Click in the 'Ver solicitud' button.
-Wait for 1 second.
-Click in 'Enviar al cliente' button.
-End.

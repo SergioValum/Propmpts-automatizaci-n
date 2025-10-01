@@ -1,0 +1,31 @@
+//Validación
+
+Click in the round button below 'Gestor de técnicos' text field whose icon is a '+' sign.
+Wait 1 second.
+Write {'Sergio'} in 'Nombre' and {'Técnico'} in 'Apellidos'.
+Wait 1 second.
+Select the first button in the list.
+Wait for 1 second 
+
+//Proceso de validación (servicio paso 8-11) 
+
+Click in the 'Empezar validación' button
+Wait for 1 second.
+Click in the 'Confirmar' button.
+Wait for 1 second.
+Click in the 'Validar' button
+Wait for 1 second.
+Write in the 'Valor total (€)' text field {'90'}.
+Click in the 'Confirmar' button.
+Wait for 1 second.
+Click in the 'Validar gastos' button.
+Wait for 1 second.
+Click in the 'Terminar' button.
+Wait for 1 second.
+Click in the 'Confirmar' button.
+Wait for 1 second.
+//Vuelta a la solicitud (solicitud paso 4-5)
+Click in the 'Ver solicitud' button.
+Wait for 1 second.
+Click in 'Enviar al cliente' button.
+End.
