@@ -98,9 +98,8 @@ Wait 1 second
 
 //Datos específicos del inmueble
 
-Go back to the hierarchy diagram.
-Wait 1 second
-Click in the button that contains '1 - '
+Click in the dropdown list labeled as 'Datos comunes del informe'
+Select the one whose label contains '1 -'
 Wait 1 second
 
 //Identificación

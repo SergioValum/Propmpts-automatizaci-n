@@ -1,0 +1,328 @@
+//Avanzar visita
+
+Click in the 'Avanzar visita' button.
+Wait 1 second. A pop up appears
+Click in the button labeled as '6': 'Visita finalizada'.
+Click in 'Siguiente' button
+Click in 'Continuar' button
+Wait 30 until the page loads.
+
+//Entrar en el informe
+
+Click in the 'Informe' button 
+Wait 1 second
+There is a list of buttons with an unique id that corresponds to their date of creation. Clik in the one whose label reads "En proceso".
+Wait 1 second
+Click in the button labeled as 'Importar archivos de solicitudes'
+Wait 1 second
+Click in the 'Confirmar' button
+Wait 1 second
+
+//Datos comunes del informe
+
+There is a created a hierarchy diagram. Click in the button in the top of the hierarchy that reads 'Datos comunes del informe'
+Wait 1 second
+
+//Localidad, entorno y mercado
+
+Click in the button labeled as 'Localidad, entorno y mercado'
+Wait 1 second
+Click in the 'Editar' button.
+Fill the field labeled as 'Observaciones' with 'Valum'.
+Click in 'Nivel socioeconómico' dropdown list and select 'Alto'.
+There are 7 buttons right below a text field that reads 'Riesgos medioambientales del entorno'. Click on all 7 of them and change their position. Their labels are: 'Desertificación', 'Riesgo de inundaciones costeras', 'Riesgo de inundación fluvial', 'Incendios forestales', 'Sismos', 'Contaminación del terreno', 'Riesgo volcánico'.
+Click in '¿Existe un mercado de comparables?' dropdown list and select 'No'.
+Click in 'Guardar' to save changes.
+Wait 1 second
+
+//Características del edificio
+
+Click in the button labeled as 'Características del edificio'
+Wait 1 second
+Click in the 'Editar' button.
+Click in 'Cimentación' dropdown list and select 'Cimentación de hormigón armado de zapatas corridas'.
+Click in 'Estructura' dropdown list and select 'Estructura mixta metálica y hormigón armado'.
+Click in 'Cubierta' dropdown list and select 'Cubierta plana transitable'.
+Click in 'Cerramientos' dropdown list and select 'Fachada de aplacado de piedra o cerámica'.
+Click in 'Uso' dropdown list and select 'Comercial'.
+Click in 'Calidad de las edificaciones' dropdown list and select 'Muy alta'.
+Click in 'Estado de conservación' dropdown list and select 'Bueno'.
+Fill the field labeled as 'Plantas bajo rasante' with '0'.
+Fill the field labeled as 'Plantas sobre rasante' with '3'.
+Fill the field labeled as 'Accesos al edificio' with '2'.
+Click in 'Categoría de la calle' dropdown list and select 'Via importante del municipio'.
+Click in 'Vigilancia' dropdown list and select 'Portero físico'.
+Fill the field labeled as 'Número de ascensores' with '2'.
+Click in 'Tenis/Pádel' dropdown list and select 'No'.
+Click in 'Piscina' dropdown list and select 'No'.
+Click in 'Zona deportiva' dropdown list and select 'No'.
+Click in 'Zonas verdes' dropdown list and select 'No'.
+Click in 'Instalaciones comunes' dropdown list and select 'No'.
+Click in 'Guardar' to save changes.
+Wait 1 second
+
+//Situación urbanística
+
+Click in the button labeled as 'Situación urbanística'
+Wait 1 second
+Click in the 'Editar' button.
+Fill the field labeled as 'Descripción' with 'Valum'.
+Click in 'Guardar' to save changes.
+Wait 1 second
+
+//Descripción del terreno - correcto
+
+//Comprobaciones - correcto
+
+//Condicionantes, advertencias y observaciones
+
+Click in the button labeled as 'Condicionantes, advertencias y observaciones'
+Wait 1 second
+Click in the 'Editar' button.
+Wait 1 second
+There are 3 buttons whose label reads 'Añadir'. Click in the one in the middle, next to the text 'Advertencias'
+It will appear a dropdown list. Click in 'Otra documentación'
+It will appear another dropdown list. Click in '[ODC9][A1]'.
+Click in 'Guardar' to save changes.
+Wait 1 second
+
+//Estudios de mercado
+
+//Datos específicos del inmueble
+
+Click in the dropdown list labeled as 'Datos comunes del informe'
+Select the one whose label contains '1 -'
+
+//Identificación
+
+Click in the 'Editar' button.
+Select the first 14 characters from the field named 'Referencia catastral'. Copy them into the field below, labeled as 'Referencia catastral del edificio'.
+Fill the field labeled as 'IDUFIR' with 14 random ASCII characters.
+Fill the field labeled as 'Finca registral' with 2 random ASCII characters.
+Click in 'Nombre del registro de la propiedad' dropdown list and select the first value. 
+Click in 'Guardar' to save changes.
+Wait 1 second
+
+//Localización
+
+Click in the button labeled as 'Localización'
+Wait 1 second
+Click in the 'Editar' button.
+Wait 1 second
+Click in 'Provincia' dropdown list and select 'Madrid'.
+Click in 'Municipio' dropdown list and select 'Pozuelo de Alarcón'.
+Fill the field labeled as 'Código postal' with '28224'
+Click in 'Nombre de la vía' dropdown list and select 'Avenida Europa'.
+Fill the field labeled as 'Número' with '26'.
+Click in 'Planta' dropdown list and select '3'
+Wait 1 second
+
+//Tipología
+
+Click in the button labeled as 'Tipología'
+Wait 1 second
+Click in the 'Editar' button.
+Click in 'Subtipología' dropdown list and select the first value.
+Click in '1ª / 2ª de residencia' dropdown list and select the first value.
+Click in 'Estado del activo' dropdown list and select 'No terminado'.
+Click in 'Estado de conservación' dropdown list and select 'Bueno'.
+Click in 'Situación legal' dropdown list and select 'Libre'.
+Click in 'Guardar' to save changes.
+Wait 1 second
+
+//Superficies
+
+Click in the button labeled as 'Superficies'
+Wait 1 second
+Click in the 'Editar' button.
+There are 3 columns. the next 3 instructions will be about the one labeled as 'Comprobada':
+Fill the field labeled as 'Superficie útil (m²)' with '91'
+Fill the field labeled as 'Superficie construida sin comunes (m²)' with '95'
+Fill the field labeled as 'Superficie construida con comunes (m²)' with '100'
+Now, in the first column, labeled as 'Catastral', fill the field labeled as 'Superficie construida sin comunes (m²)' with '95'
+Click in 'Guardar' to save changes.
+Wait 1 second
+
+//Características del inmueble - aparece como correcto pero no está completo
+
+Click in the button labeled as 'Características del inmueble'
+Wait 1 second
+Click in the 'Editar' button.
+Click in 'Estado interior del inmueble' dropdown list and select 'Origen'.
+Click in 'Inmueble exterior o interior' dropdown list and select 'Interior'.
+Click in 'Orientación' dropdown list and select 'Aumenta el valor'.
+Click in 'Tamaño del inmueble' dropdown list and select 'Adecuado'.
+Click in 'Licencia' dropdown list and select 'Con licencia de funcionamiento'.
+Click in 'Uso polivalente' dropdown list and select 'Edificio exclusivo cerca del centro'.
+Fill the field labeled as 'Superficie útil de espacios exteriores cubiertos' with '0'
+Fill the field labeled as 'Superficie útil de espacios exteriores descubiertos' with '0'
+Click in 'Guardar' to save changes.
+Wait 1 second
+
+//Posesión
+
+Click in the button labeled as 'Posesión'
+Wait 1 second
+Click in the 'Editar' button.
+Click in 'Estado de ocupación' dropdown list and select 'Desocupado'.
+Click in 'Tipo de posesión' dropdown list and select 'Pleno dominio'.
+Click in 'Proindiviso' dropdown list and select 'No'.
+Wait 1 second
+Fill the field labeled as 'Porcentaje' with '100'
+Fill the field labeled as 'Nombre' with 'Jesús'
+Fill the field labeled as 'NIF/NIE/Pasaporte' with '99999999V'
+Click in 'Guardar' to save changes.
+Wait 1 second
+
+//Valoraciones - comparación y coste
+
+Click in the button labeled as 'Valoraciones'
+Wait 1 second
+Click in 'Añadir valoración'
+A pop up will appear. Click in 'Métodos de valoración' dropdown list and select 'Comparación'.
+Wait 1 second
+Click in 'Superficies' dropdown list and select the option that contains 'Superficie comprobada útil'.
+Wait 1 second
+Click in the button that reads 'Crear testigo'
+A pop up appears. Fill the field labeled as 'Referencia catastral' with '0966512VK3706N0002KY'
+Click in the button labeled as 'Buscar'
+Wait 1 second
+Click in the button labeled as '>'
+Wait 1 second
+Fill all the required gaps. Select 'Venta' from the dropdown list labeled as 'Tipo de oferta'
+Select 'Particular' from the dropdown list labeled as 'Tipo de origen'
+Select 'Internet' from the dropdown list labeled as 'Origen del testigo'
+Fill the gap labeled as 'URL del proveedor' with 'A'
+Fill the gap labeled as 'Número de contacto' with '999999999'
+Select 'Piso' from the dropdown list labeled as 'Subtipología'
+Fill the field labeled as 'Superficie útil' with '95'
+Fill the field labeled as 'Superficie construida/construida con comunes' with '100'
+Fill the field labeled as 'Año de construcción' with '1970'
+Select 'Media' from the dropdown list labeled as 'Calidad de las edificaciones'
+Select 'Bueno' from the dropdown list labeled as 'Estado de conservación'
+Fill the field labeled as 'Número de baños' with '1'
+Fill the field labeled as 'Número de habitaciones' with '3'
+Select 'Origen' from the dropdown list labeled as 'Estado interior del testigo'
+Fill the field labeled as 'Número de plantas del edificio' with '1'
+Fill the field labeled as 'Número de ascensores del testigo' with '1'
+Fill the field labeled as 'Superficie útil de espacios exteriores cubiertos (m2)' with '1'
+Fill the field labeled as 'Superficie útil de espacios exteriores descubiertos (m2)' with '1'
+Select 'Bueno' from the dropdown list labeled as 'Situación dentro zona'
+Select 'Medio' from the dropdown list labeled as 'Nivel socio-económico zona'
+Fill the field labeled as 'Nº de plazas de garaje' with '0'
+Select 'No' from the dropdown list labeled as 'Trastero'
+Fill the field labeled as 'Valor de oferta' with '220000'
+Fill the field labeled as 'Reduc. / Negociación' with '5'
+There are 5 buttons. Their names are 'ZONAS VERDES', 'PISCINA', 'ZONA DEPORTIVA', 'CALEFACCIÓN', 'CLIMATIZACIÓN'. Select all of them.
+Click in the button labeled as 'Confirmar'
+Wait 1 second
+Click in the button labeled as 'Añadir testigos'. The pop up will disappear.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Wait 1 second
+Next to the new chart created there is a button that opens a dropdown list. Click it and select 'Copiar'
+Wait 1 second
+Select the button 'Confirmar' in the pop up.
+Fill the field labeled as 'Observaciones relativas al estudio de mercado' with 'A'.
+Click in the button labeled as 'Guardar'
+Wait 1 second
+A pop up will appear. Fill the gap labeled as 'Nombre' with 'B'
+Wait 1 second
+Click in the button labeled as 'Recalcular métodos'
+Wait 1 second
+Click in 'Cerrar'
+Wait 1 second
+
+Click in 'Añadir valoración'
+Wait 1 second
+A pop up will appear. Click in 'Métodos de valoración' dropdown list and select 'Coste'.
+Wait 1 second
+Click in 'Superficies' dropdown list and select the option that contains 'Superficie comprobada útil'.
+Wait 1 second
+There is a chart with a button that leads to a pop up. The button has an icon with math symbols. Click on it.
+Wait 1 second
+Fill the field labeled as 'Valor de mercado' with '1000'
+Fill the field labeled as 'Coste de construcción' with '200'
+Fill the field labeled as 'Gastos de construcción' with '100'
+Click in the 'Confirmar' button to close the pop up.
+Wait 1 second
+Fill the field labeled as 'Justificación de los cálculos del valor de suelo' with 10 random ASCII characters.
+Fill the field labeled as 'Justificación de los costes de producción' with 10 random ASCII characters.
+There is still a field to fill to be able to save the page. It reads 'Este campo es obligatorio' in red below the field. It is located inside a chart, in the column labeld as '€/m²'. Fill the field with '400'
+Click in the 'Guardar' button.
+Wait 1 second
+
+//Fotos de la visita
+
+Click in the button labeled as 'Fotos de la visita'
+Wait 1 second
+Click in the '+ Añadir' button.
+Usually, the users click in the button whose icon is a sheet. Its tooltip reads '+ Seleccionar'. Do not use this button, as it triggers the OS file dialog. Instead, locate the HTML input element of type 'file' (jpg) on the page. Use JavaScript or Playwright to set the value of the <input type='file'> element directly using the 'setInputFiles()' method or equivalent, to avoid triggering the OS file dialog. Upload the files directly from this location: 'C:\Users\SergioGarridoPaco\Desktop\Docs\Imágenes ejemplo QA'. There are 4 files: ['Nota simple.pdf', 'Croquis del inmueble.pdf', 'Documentación catastral.pdf', 'Certificado de eficiencia energética']. Upload all 4 of them. 
+Wait for 1 second. 
+For every jpg file: Locate a text field labeled as 'Nombre' next to every jpg file. Write the name the file in the text field. 
+Wait for 1 second
+Click in 'Subir' button
+Wait for 1 second
+
+//Documentación
+
+Click in the button labeled as 'Documentación'
+Wait 1 second
+Click in the '+ Adjuntar' button.
+Usually, the users click in the button whose icon is a sheet. Its tooltip reads '+ Seleccionar'. Do not use this button, as it triggers the OS file dialog. Instead, locate the HTML input element of type 'file' (pdf) on the page. Use JavaScript or Playwright to set the value of the <input type='file'> element directly using the 'setInputFiles()' method or equivalent, to avoid triggering the OS file dialog. Upload the files directly from this location: 'C:\Users\SergioGarridoPaco\Desktop\Docs\Documentos ejemplo QA'. There are 4 files: ['Nota simple.pdf', 'Croquis del inmueble.pdf', 'Documentación catastral.pdf', 'Certificado de eficiencia energética']. Upload all 4 of them.
+Wait for 1 second. 
+For each pdf file: Find the button labeled as 'Tipos de documento' next to every pdf file. Click in the button and it will deploy a dropdown list. Click in the button whose name corresponds to the name of the file. 
+Wait for 1 second. 
+For every pdf file: Locate the button labeled as 'Fecha de emisión' next to every pdf file. Click in the button and it will appear a calendar (pop up). Click the button that corresponds to the first day of the month, 1.
+Wait 1 second. 
+Click in the 'Subir' button. 
+Wait 1 second. 
+
+//Registro de cambios - correcto
+
+//Datos adicionales - correcto
+
+//Estado de la obra
+
+Click in the dropdown list labeled as 'Datos comunes del informe'
+Select the one whose label contains '1 -'
+Wait 1 second
+Click in the button labeled as 'Estado de la obra'
+Wait 1 second
+Click in the button labeled as 'Recalcular'
+Wait 1 second
+Fill the field labeled as 'Observaciones sobre el estado de la obra' with 'brick by brick'
+Click in the button that reads 'Fecha de inicio de obra'. This opens a calendar. Select the day 1.
+Click in the button that reads 'Fecha estimada fin de obra'. This opens a calendar. Select the day 1.
+Click the dropdown list without label and select the option that contains 'Superficie construida con comunes (m2)'
+Click in the button labeled as 'Guardar'
+
+//Finalizar el informe
+
+Go back to the hierarchy diagram.
+Click in the 'Actualizar' button.
+Wait for 1 second.
+
+//Avanzar visita
+
+Click in the 'Avanzar visita' button.
+Wait 1 second. A pop up appears
+Click in the button labeled as '7': 'Informe entregado'.
+Click in 'Siguiente' button
+Click in 'Continuar' button
+Click in 'Autorizar' button
+Wait 30 until the page loads.

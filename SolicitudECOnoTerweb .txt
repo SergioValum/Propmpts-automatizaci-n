@@ -1,0 +1,96 @@
+//Iniciar sesión en Tasafy Web 
+
+Open a new tab. It’s gonna be called TasafyWeb 
+Navigate to https://qa-force.valumre.com/login 
+In the input field labeled 'Nombre de usuario/Email', type exactly: 'sgarrido@valumre.com' 
+Wait for 1 second. 
+In the input field labeled 'Contraseña', type exactly: 'Tutututu0' 
+Click in the 'Iniciar sesión' button. 
+Wait 1 second.
+
+//Crear solicitud (toma de datos)
+
+Click in the 'Solicitudes' button at the top.
+Wait for 1 second.
+Click in the 'Crear solicitud' button.
+Wait for 1 second.
+
+//Rellenar la página de la solicitud (solicitud paso 1-2) 
+
+///Características de servicio 
+
+Click in the 'Tipo de servicio' dropdown list and select the 'Valoración' value. 
+Wait for 1 second 
+Click in 'Tipo de valoración' dropdown list and select 'Tasación ECO' value. 
+Click in 'Finalidad / Base valor' dropdown list and select 'Garantía hipotecaria' value. 
+Click in 'Tipo de visita mínima exigible' dropdown list and select 'Interior' value. 
+Click in 'Modo de facturación' dropdown list and select 'Previo-pago' value. 
+Click in 'Modo tarifa' dropdown list and select 'Global a la solicitud' value. 
+
+//Datos de la solicitud 
+
+Click in 'Tipo de informe' dropdown list and select 'Elementos no terminados' value. 
+Click in '+ Añadir nuevo activo' button. 
+Wait for 1 second. 
+Write '7920423BF9672B0001YD' in 'Referencia catastral' field. 
+Click in 'Buscar' button 
+
+//Provisión de Ingresos/Gastos
+ 
+Write in the 'Importes' field '300' 
+Write in the 'Nota simple' field '0' 
+
+//Datos del titular de la tasación 
+
+Click in 'Seleccionar un cliente' button. 
+Wait for 1 second 
+Click in the button with a hopper icon, whose hover reads 'Mostrar filtros' as a tooltip. 
+Wait for 1 second 
+Write Alejandro Santana Díaz in the 'Nombre' field. 
+Click in the 'Filtrar' button. 
+Wait for 1 second 
+Click in the button labeled both as 'Alejandro Santana Díaz' and '00000001T'. 
+
+//Facturación 
+
+Click in the button next to 'Datos de facturación' labeled text, whose tooltip is 'Copiar datos del titular' and whose icon is a sheet.
+
+//Datos del contacto para la visita
+
+Fill the textbox labeled exactly as 'Email' with 'a@a.com'
+
+//Botón de crear la solicitud y aceptar presupuesto (solicitud paso 2-3) 
+
+Click in 'Crear' button. 
+Wait for 1 second. 
+Click in the first button in the list. It should contain the Identifier, and the date and hour of its creation. 
+Wait for 1 second. 
+Click in the button labeled as 'Aceptar preupuesto manualmente'. 
+Wait for 1 second. 
+Click in the 'Confirmar' button in the pop up. 
+Wait for 1 second. 
+
+//Crear encargo (solicitud paso 3-4) 
+//Crear servicio (toma de datos) dentro de la solicitud (servicio paso 1-2) 
+
+Click in the 'Crear servicio' button. 
+Wait for 1 second. 
+Select the first checkbox to select all. 
+Click in the 'Terminar' button. 
+Wait for 1 second. 
+Write 'a@e.com' in the 'Email' text field. 
+Click in the 'Guardar' button. 
+Wait for 1 second. 
+
+//Asignación técnico (servicio paso 2-3) 
+
+Save the string that contains the appraisal title in AppTitle. Its form should be 3 capital letters and 3 numbers. 
+Click in the round button below 'Profesional' text field whose icon is a '+' sign. 
+Wait 1 second. 
+Write 'Sergio' in 'Nombre' and 'Profesional' in 'Apellidos'. 
+Wait 1 second. 
+Select the first button in the list. 
+Wait for 1 second 
+Write in the 'Razón' text field a random 15 character string of printable ASCII characters. 
+Click in the 'Confirmar' button. 
+Wait for 1 minute. 
